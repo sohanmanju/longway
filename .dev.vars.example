@@ -1,0 +1,4 @@
+DISCORD_APPLICATION_ID=your-discord-application-id
+DISCORD_PUBLIC_KEY=your-discord-public-key
+DISCORD_TOKEN=your-discord-bot-token
+CARPOOL_CHANNEL_ID=your-carpool-channel-id

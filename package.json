@@ -4,13 +4,22 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
-    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "register-commands": "tsx scripts/register-commands.ts"
   },
   "dependencies": {
-    "hono": "^4.12.25"
+    "@discordjs/builders": "^1.14.1",
+    "discord-api-types": "^0.38.48",
+    "discord-interactions": "^4.4.0",
+    "hono": "^4.12.25",
+    "vitest": "^4.1.8"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
     "wrangler": "^4.100.0"
   }
 }
