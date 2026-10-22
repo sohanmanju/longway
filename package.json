@@ -14,7 +14,7 @@
     "discord-api-types": "^0.38.48",
     "discord-interactions": "^4.4.0",
     "hono": "^4.12.25",
-    "vitest": "^4.1.8"
+    "vitest": "^4.1.12"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
