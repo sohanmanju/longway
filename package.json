@@ -13,7 +13,7 @@
     "@discordjs/builders": "^1.14.1",
     "discord-api-types": "^0.38.48",
     "discord-interactions": "^4.4.0",
-    "hono": "^4.12.25",
+    "hono": "^4.13.11",
     "vitest": "^4.1.8"
   },
   "devDependencies": {
